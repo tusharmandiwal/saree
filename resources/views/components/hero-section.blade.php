@@ -20,9 +20,11 @@
 
             <!-- Right Side: Image -->
             <div class="flex-1 md:w-1/2">
-                <img src="{{asset('mainhero.jpg')}}"
-                    alt="Hero Image" class="w-full h-auto" />
+             <img src="{{ asset('mainhero.jpeg') }}"
+            alt="Hero Image" 
+             class="w-64 h-100 ml-4" />
             </div>
+
         </div>
 
         <!-- Stats Section -->

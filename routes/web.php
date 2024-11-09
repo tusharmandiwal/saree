@@ -130,7 +130,7 @@ Route::get('/clear-cache', function () {
     Artisan::call('view:clear');
     Artisan::call('route:clear');
     Artisan::call('optimize:clear');
-    return "All Caches are cleared by @Roni";
+    return "All Caches are cleared";
 });
 
 
