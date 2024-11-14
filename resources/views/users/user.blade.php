@@ -35,7 +35,7 @@
                             number).</p>
                     </div>
                     <div>
-                        <h4 class="text-md font-medium text-gray-900">When will my BiharShop account be updated with
+                        <h4 class="text-md font-medium text-gray-900">When will my  account be updated with
                             the new email address (or mobile number)?</h4>
                         <p class="text-gray-700">It happens as soon as you confirm the verification code sent to
                             your email (or mobile) and save the changes.</p>

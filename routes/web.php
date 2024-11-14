@@ -26,7 +26,7 @@ use Livewire\Livewire;
 
 
 Livewire::setUpdateRoute(function ($handle) {
-    return Route::post('/bihar-shop/public/livewire/update', $handle);
+    return Route::post('/Sangam-saree/public/livewire/update', $handle);
 });
 
 Route::view('dashboard', 'dashboard')
