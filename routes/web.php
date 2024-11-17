@@ -91,7 +91,7 @@ Route::middleware(['auth', 'admin'])->group(function () {
         Route::resource('product', ProductController::class);
         Route::resource('address', AddressController::class);
         Route::resource('coupon', CouponController::class);
-        Route::resource('gallery', GalleryController::class);
+        // Route::resource('gallery', GalleryController::class);
         Route::get('/users', [UserController::class,"manageUser"])->name('users.index');
         Route::get('/membership', [UserController::class,"manageMembership"])->name('membership.index');
         Route::get('/membership-view/{id}', [MembershipController::class,"viewMembership"])->name('membership.view');
